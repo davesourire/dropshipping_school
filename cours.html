@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formation DROPSHIPPING SCHOOL - Accès Membres</title>
+    <meta
+      name="description"
+      content="Accédez à votre formation complète en dropshipping. Contenu réservé aux membres."
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>"
+    />
+
+    <style>
+      /* Styles minimalistes pour la page formation */
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+        overflow: hidden;
+        border-radius: 1rem;
+        background: #000;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      }
+
+      .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+
+      .module-item {
+        padding: 1.5rem;
+        border-radius: 0.75rem;
+        background: rgba(30, 41, 59, 0.5);
+        border-left: 4px solid transparent;
+        transition: all 0.3s ease;
+        margin-bottom: 0.75rem;
+      }
+
+      .module-item:hover {
+        background: rgba(30, 41, 59, 0.7);
+        transform: translateX(5px);
+      }
+
+      .module-number {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        background: linear-gradient(135deg, #3b82f6, #06b6d4);
+        color: white;
+        border-radius: 50%;
+        font-weight: bold;
+        margin-right: 1rem;
+      }
+
+      /* Style pour s'assurer que la vidéo YouTube s'adapte bien */
+      .video-wrapper {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      /* Styles pour la section WhatsApp */
+      #whatsapp-community {
+        position: relative;
+        overflow: hidden;
+      }
+
+      #whatsapp-community::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.2),
+          transparent
+        );
+        transition: left 0.7s ease;
+      }
+
+      #whatsapp-community:hover::after {
+        left: 100%;
+      }
+
+      /* Animation pour l'icône WhatsApp */
+      @keyframes pulse-whatsapp {
+        0%,
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+        }
+        50% {
+          transform: scale(1.05);
+          box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+        }
+      }
+
+      .whatsapp-icon {
+        animation: pulse-whatsapp 2s infinite;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        #whatsapp-community {
+          padding: 1rem 1.5rem;
+          font-size: 1rem;
+        }
+
+        #whatsapp-community span:last-child {
+          font-size: 0.95rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        #whatsapp-community {
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        #whatsapp-community span:last-child {
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white min-h-screen">
+    <!-- Navigation ultra-minimaliste -->
+    <header class="bg-gray-900 border-b border-blue-800/30">
+      <div
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center space-x-4">
+          <a
+            href="index.html"
+            class="text-gray-300 hover:text-cyan-400 transition-colors flex items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 mr-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 19l-7-7m0 0l7-7m-7 7h18"
+              />
+            </svg>
+            Retour au site
+          </a>
+        </div>
+
+        <div>
+          <span
+            class="text-xl font-bold bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent"
+          >
+            DROPSHIPPING SCHOOL
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <main class="py-8">
+      <div class="container mx-auto px-4">
+        <!-- Titre principal -->
+        <div class="text-center mb-12">
+          <h1 class="text-3xl md:text-4xl font-bold mb-4">
+            <span
+              class="bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent"
+            >
+              Formation Complète DROPSHIPPING SCHOOL
+            </span>
+          </h1>
+          <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+            Votre vidéo de formation complète est disponible ci-dessous
+          </p>
+        </div>
+
+        <!-- Vidéo principale -->
+        <div class="max-w-6xl mx-auto mb-12">
+          <div class="video-wrapper">
+            <div class="video-container">
+              <!-- VIDÉO YOUTUBE - REMPLACEZ ICI LE LIEN -->
+              <!-- Remplacez VIDEO_ID par l'ID de votre vidéo YouTube -->
+              <iframe
+                id="formation-video"
+                src="https://www.youtube.com/embed/I-OfcEny6lY?rel=0&modestbranding=1&controls=1&showinfo=0&autoplay=0"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                "
+                allowfullscreen
+                title="Formation Complète DROPSHIPPING SCHOOL"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Liste des modules abordés -->
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">
+            <span
+              class="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent"
+            >
+              Modules Abordés dans cette Formation
+            </span>
+          </h2>
+
+          <div class="space-y-4">
+            <!-- Module 1 -->
+            <div class="module-item">
+              <div class="flex items-start">
+                <span class="module-number">1</span>
+                <div>
+                  <h3 class="text-xl font-bold mb-2">
+                    Mentalité Gagnante & Fondations du Succès
+                  </h3>
+                  <p class="text-gray-300">
+                    Adoptez l'état d'esprit des entrepreneurs qui réussissent et
+                    posez les bases solides de votre empire e-commerce.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Module 2 -->
+            <div class="module-item">
+              <div class="flex items-start">
+                <span class="module-number">2</span>
+                <div>
+                  <h3 class="text-xl font-bold mb-2">
+                    Machine à Produits Gagnants
+                  </h3>
+                  <p class="text-gray-300">
+                    Notre système exclusif pour identifier et valider des
+                    produits à fort potentiel de vente en moins de 24h.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Module 3 -->
+            <div class="module-item">
+              <div class="flex items-start">
+                <span class="module-number">3</span>
+                <div>
+                  <h3 class="text-xl font-bold mb-2">
+                    Sourcing Pro & Logistique Sans Friction
+                  </h3>
+                  <p class="text-gray-300">
+                    Trouvez les meilleurs fournisseurs et mettez en place une
+                    chaîne logistique fiable et transparente.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Module 4 -->
+            <div class="module-item">
+              <div class="flex items-start">
+                <span class="module-number">4</span>
+                <div>
+                  <h3 class="text-xl font-bold mb-2">
+                    Boutique Haute Conversion & Branding Magnétique
+                  </h3>
+                  <p class="text-gray-300">
+                    Créez des boutiques qui convertissent à plus de 3% grâce aux
+                    principes avancés d'UX et de persuasion.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Module 5 -->
+            <div class="module-item">
+              <div class="flex items-start">
+                <span class="module-number">5</span>
+                <div>
+                  <h3 class="text-xl font-bold mb-2">
+                    Publicité Rentable & Scalabilité
+                  </h3>
+                  <p class="text-gray-300">
+                    Maîtrisez Facebook Ads, TikTok Ads et Google Ads pour
+                    générer un flot constant de clients à faible coût.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Module 6 -->
+            <div class="module-item">
+              <div class="flex items-start">
+                <span class="module-number">6</span>
+                <div>
+                  <h3 class="text-xl font-bold mb-2">
+                    Automatisation & Liberté Entrepreneuriale
+                  </h3>
+                  <p class="text-gray-300">
+                    Automatisez 90% des tâches et libérez votre temps tout en
+                    faisant croître vos revenus de manière passive.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Module 7 -->
+            <div class="module-item">
+              <div class="flex items-start">
+                <span class="module-number">7</span>
+                <div>
+                  <h3 class="text-xl font-bold mb-2">
+                    Blindage Légal & Protection de l'Empire
+                  </h3>
+                  <p class="text-gray-300">
+                    Protégez votre business des risques juridiques et fiscaux
+                    avec nos contrats et structures éprouvés.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Module 8 -->
+            <div class="module-item">
+              <div class="flex items-start">
+                <span class="module-number">8</span>
+                <div>
+                  <h3 class="text-xl font-bold mb-2">
+                    Expansion Massive & Cas Réels
+                  </h3>
+                  <p class="text-gray-300">
+                    Scalez votre business, diversifiez vos revenus et analysez
+                    des études de cas concrets de réussite.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Note importante -->
+        <div
+          class="max-w-3xl mx-auto mt-12 p-6 bg-gradient-to-r from-blue-900/20 to-cyan-900/20 rounded-2xl border border-blue-700/30 text-center"
+        >
+          <h3 class="text-xl font-bold mb-3">
+            🎯 Comment tirer le maximum de cette formation
+          </h3>
+          <p class="text-gray-300">
+            Regardez la vidéo complète en prenant des notes. Appliquez les
+            conseils étape par étape. Revenez sur les sections importantes si
+            nécessaire.
+          </p>
+        </div>
+      </div>
+
+      <!-- Section Communauté WhatsApp -->
+      <div class="max-w-4xl mx-auto mt-16">
+        <div
+          class="bg-gradient-to-r from-green-900/30 to-emerald-900/20 rounded-2xl p-8 border border-green-700/30 text-center"
+        >
+          <div class="flex flex-col items-center">
+            <!-- Icône WhatsApp -->
+            <div
+              class="w-20 h-20 bg-gradient-to-r from-green-500 to-emerald-400 rounded-full flex items-center justify-center mb-6 shadow-lg"
+            >
+              <span class="text-3xl">💬</span>
+            </div>
+
+            <!-- Titre et description -->
+            <h3 class="text-2xl md:text-3xl font-bold mb-4">
+              <span
+                class="bg-gradient-to-r from-green-400 to-emerald-300 bg-clip-text text-transparent"
+              >
+                Rejoignez Notre Communauté Privée
+              </span>
+            </h3>
+
+            <p class="text-gray-300 mb-6 max-w-2xl mx-auto">
+              Accédez à notre groupe WhatsApp exclusif réservé aux membres
+              DROPSHIPPING SCHOOL. Échangez avec les autres étudiants, posez vos
+              questions et bénéficiez du support de notre équipe.
+            </p>
+
+            <!-- Avantages -->
+            <div class="grid md:grid-cols-3 gap-4 mb-8 max-w-3xl mx-auto">
+              <div class="p-4 bg-gray-800/30 rounded-xl">
+                <div class="text-2xl mb-2">👥</div>
+                <h4 class="font-bold mb-2">850+ Membres</h4>
+                <p class="text-sm text-gray-400">
+                  Communauté active et bienveillante
+                </p>
+              </div>
+
+              <div class="p-4 bg-gray-800/30 rounded-xl">
+                <div class="text-2xl mb-2">💬</div>
+                <h4 class="font-bold mb-2">Support Direct</h4>
+                <p class="text-sm text-gray-400">
+                  Questions réponses en temps réel
+                </p>
+              </div>
+
+              <div class="p-4 bg-gray-800/30 rounded-xl">
+                <div class="text-2xl mb-2">🎯</div>
+                <h4 class="font-bold mb-2">Cas Concrets</h4>
+                <p class="text-sm text-gray-400">
+                  Partage d'expériences et de résultats
+                </p>
+              </div>
+            </div>
+
+            <!-- Lien WhatsApp -->
+            <a
+              href="https://chat.whatsapp.com/KMavXm1xT9UC2zgKUVTyWr"
+              target="_blank"
+              id="whatsapp-community"
+              class="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-green-600 to-emerald-500 hover:from-green-700 hover:to-emerald-600 text-white font-bold text-lg py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-emerald-500/30 mb-4"
+            >
+              <span class="text-2xl">💬</span>
+              <span>REJOINDRE LA COMMUNAUTÉ WHATSAPP</span>
+            </a>
+
+            <!-- Instructions -->
+            <p class="text-gray-400 text-sm mt-4">
+              ⚠️ <strong>Important :</strong> Ce lien est réservé aux membres
+              ayant terminé la formation
+            </p>
+            <p class="text-gray-500 text-sm mt-2">
+              Cliquez sur le bouton ci-dessus pour être redirigé vers WhatsApp
+              et envoyer un message automatique
+            </p>
+          </div>
+        </div>
+
+        <!-- Note finale -->
+        <div class="mt-8 text-center">
+          <div class="inline-flex items-center gap-2 text-gray-400">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+              />
+            </svg>
+            <span
+              >L'accès à la communauté est vérifié manuellement pour garantir sa
+              qualité</span
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer minimal -->
+    <footer class="bg-gray-950 py-8 mt-12 border-t border-gray-800">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-gray-500 mb-2">
+          Besoin d'aide ? Contactez le support :
+          <a
+            href="mailto:support@dropshippingschool.com"
+            class="text-cyan-400 hover:text-cyan-300"
+          >
+            support@dropshippingschool.com
+          </a>
+        </p>
+        <p class="text-gray-500 text-sm">
+          © 2025 DROPSHIPPING SCHOOL - Contenu réservé aux membres. Toute
+          diffusion non autorisée est interdite.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Script minimal pour la page -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        console.log("Page formation DROPSHIPPING SCHOOL chargée");
+
+        // Détection du mode plein écran pour la vidéo
+        const videoIframe = document.getElementById("formation-video");
+
+        // Fonction pour extraire et afficher l'ID de la vidéo actuelle
+        function showCurrentVideoId() {
+          const src = videoIframe.src;
+          const match = src.match(/embed\/([^?]+)/);
+          if (match && match[1]) {
+            console.log("ID de la vidéo actuelle:", match[1]);
+          }
+        }
+
+        // Afficher l'ID au chargement
+        showCurrentVideoId();
+
+        // Message de bienvenue discret
+        setTimeout(() => {
+          console.log("🎬 La vidéo de formation est prête à être visionnée.");
+        }, 1000);
+
+        // Instructions pour changer la vidéo
+        console.log("📝 Pour changer la vidéo :");
+        console.log(
+          "1. Ouvrez le fichier formation.html dans un éditeur de texte",
+        );
+        console.log('2. Cherchez "VIDEO_ID" dans le code');
+        console.log('3. Remplacez "VIDEO_ID" par votre vrai ID YouTube');
+        console.log("4. Enregistrez et rechargez la page");
+      });
+
+      // Fonction utilitaire pour faciliter le changement de vidéo
+      function changeYouTubeVideo(videoId) {
+        // Cette fonction peut être appelée depuis la console du navigateur
+        // Exemple: changeYouTubeVideo('NOUVEAU_VIDEO_ID')
+        const iframe = document.getElementById("formation-video");
+        const newSrc = `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&controls=1&showinfo=0&autoplay=0`;
+        iframe.src = newSrc;
+        console.log(`✅ Vidéo changée pour l'ID: ${videoId}`);
+        return true;
+      }
+
+      // Exposer la fonction globalement pour le débogage
+      window.changeYouTubeVideo = changeYouTubeVideo;
+    </script>
+  </body>
+</html>
