@@ -81,7 +81,9 @@
                         </div>
                         <!-- En production, remplacer par : -->
                      <!--   <iframe class="absolute top-0 left-0 w-full h-full" src="nouv_video.mp4" frameborder="0" allowfullscreen></iframe> -->
-                        <iframe class="absolute top-0 left-0 w-full h-full" src="nouv_video.mp4" frameborder="0" allowfullscreen style="object-fit: cover; object-position: center; aspect-ratio: 9 / 16;"></iframe>
+                        <div class="absolute top-0 left-0 w-full h-full overflow-hidden" style="aspect-ratio: 9 / 16;">
+                           <iframe class="absolute top-0 left-0 w-full h-full" src="nouv_video.mp4" frameborder="0" allowfullscreen style="width: 100%; height: 100%; object-fit: cover;"></iframe>
+                        </div>
                     </div>
                 </div>
                 
